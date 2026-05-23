@@ -9,7 +9,7 @@ bool openDatabase() {
 
     int rc =
         sqlite3_open(
-            "/Users/mihailkislyj/Desktop/children.db",
+            "children.db",
             &DB
         );
 
